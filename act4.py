@@ -43,3 +43,4 @@ simple_cnn_model.compile(optimizer='sgd',
 
 # Print the model summary
 simple_cnn_model.summary()
+print('change optimizer')
