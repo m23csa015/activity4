@@ -37,7 +37,7 @@ num_classes = 15
 simple_cnn_model = create_simple_cnn(input_shape, num_classes)
 
 # Compile the model with appropriate loss function, optimizer, and metrics
-simple_cnn_model.compile(optimizer='adam',
+simple_cnn_model.compile(optimizer='sgd',
                          loss='sparse_categorical_crossentropy',
                          metrics=['accuracy'])
 
